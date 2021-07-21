@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+body{
+    background-color: #2c2c2c2c;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu{
+    background: rgba(175, 165, 165, 0.849);
+}
+.menu ul{
+    margin-left: 150px;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu ul li{
+    
+    width: 120px;
+   margin: 15px;
+   padding: 10px; 
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active,.menu ul li :hover{
+background: #2bab0d;
+border: 3px;
+
+}
+.submenu{
+    display: none;
+}
+.menu ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background:  rgba(175, 165, 165, 0.849);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .submenu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.menu ul li:hover .submenu ul li a:hover{
+    color:#b2ff00;
+}
+.os{
+    height: 400px;
+    width: 1345px;
+    
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.windows{
+    height: 600px;
+    width: 800px;
+    background: #fff;
+    margin-left: 2px;
+    
+}
+.linux{
+    height: 600px;
+    width: 600px;
+    background: #fff;
+    margin-left: 750px;
+    margin-top: -600px;
+    margin-right: 0px;
+    
+}
+.others{
+    height: 500px;
+    width: 800px;
+    background: #fff;
+    margin-left: 2px;
+    margin-top: -10px;
+    
+}
+.all{
+    height: 550px;
+    width: 600px;
+    background: #fff;
+    margin-left: 750px;
+    margin-top: -550px;
+}
+
+.hardware{
+    background: #fff;
+    height:600px ;
+    width: 1345px;
+    margin-top: 800px;
+}
+.activator{
+    background: #fff;
+    height:600px ;
+    width: 1345px;
+    margin-top: 10px; 
+}
+.recovary{
+    
+    background: #fff;
+    height:615px ;
+    width: 1345px;
+    margin-top: 10px;
+}
+.cont{
+    background: #fff;
+    height:50px ;
+    width: 1340px;
+    margin-top: 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    align-items: center;
+}
